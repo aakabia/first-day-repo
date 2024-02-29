@@ -7,36 +7,48 @@
     <link rel="stylesheet" href="style.css">
 <!-- linked css sheet with link -->
 </head>
-<body>
+<body class="background">
     <section class="header">
         <h1>Welcome to my Page!</h1>
     </section>
  <!-- added a header within a section -->
-    <section>
-        <table class="bio" id="auto">
-            <h2><u>About me</u></h2>
-            <tr>
-                <td>My name is Aziz kabia!</td>
-            </tr>
+    <section class="autobio">
+        <table id="auto">
+            <thead>
+                <h2><u>About me</u></h2>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>My name is Aziz kabia!</td>
+                </tr>
 
-            <tr>
-                <td> I am from Sierra Leone!</td>
-            </tr>
+                <tr>
+                    <td> I am from Sierra Leone!</td>
+                </tr>
 
-            <tr>
-                <td>I love to snowboard!</td>
-            </tr>
-
+                <tr>
+                    <td>I love to snowboard!</td>
+                </tr>
+            </tbody>
+            
         </table>
+    </section>
+
+    <section class="linkedin">
+        <h3><u>Contact Info:</u></h3>
+        <a     target="_blank"    id="profile"    href="https://www.linkedin.com/notifications/?filter=all">LinkedIn Profile</a> 
+    </section>
 
 <!-- added a table with rows and header within section -->
-    </section>
+   
     
     
     
-    <section id="vid">
-        <video autoplay muted src="assets /Africa .mp4"></video>
+    <section id="vid" class="videos">
+        <video class="vids" autoplay muted src="assets /Africa .mp4"></video>
     </section>
 <!-- added a section and video -->
 </body>
-</html>git 
+</html>
+
+<!-- added css style and moved items around using properties on 2/29/24 -->
